@@ -17,6 +17,61 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <style>
 
+.page-right {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+.box4, span, label{
+	font-family:'GowunBatang-Bold';
+
+}
+
+
       .container {
         display: flex;
 
@@ -81,12 +136,13 @@
       .box5 {
         height: 14rem;
         width: 100%px;
-        border: 1px solid #f3f6f9;
+        border: 5px  inset #666;
         display: flex;
         justify-content: space-around;
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
+        border-radius: 20px;
       }
       .box4 {
         margin-top: 40px;
@@ -396,7 +452,7 @@
       <div class="page-right">
 
         <div class="right-header">
-        <span>오른쪽 헤더 들어갈곳</span>
+        <h3> <span>캠핑장/글램핑/카라반/펜션 검색</span> </h3>
         </div>
         
         <div>
@@ -414,13 +470,14 @@
             <%for(int i = j*10; i<list.size(); i++){%>
                  <%if (t<=10) {%>
                     <div class="box5">
-                          <div class="box4" style="background-image: url(<%=list.get(i).getPhoto()%>)"></div>
+                          <div  class="box4" style="background-image: url(<%=list.get(i).getPhoto()%>)"></div>
+                         
                           <div class="box3">
                                <div class="box2-1">
                                   <h3><span><%=list.get(i).getCamp_name() %></span></h3>              
                               </div>
                              <div class="box2-2">
-                                 <span><%=list.get(i).getCamp_num() %></span>
+                                 <span><%=list.get(i).getLocation() %></span>
                              </div>
                          </div>
                       </div>
