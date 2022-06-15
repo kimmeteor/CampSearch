@@ -104,7 +104,7 @@ public class filterService extends HttpServlet {
 		HttpSession session3 = request.getSession();
 	    session3.setAttribute("select", list1);
 	      
-		response.sendRedirect("Home.jsp");	
+		response.sendRedirect("filter2.jsp");	
 		
 		
 		
