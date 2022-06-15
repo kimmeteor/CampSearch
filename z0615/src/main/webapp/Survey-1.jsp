@@ -92,7 +92,7 @@
 									src="images/jhjh.jpg" data-image-width="407"
 									data-image-height="407">
 								<p class="u-text u-text-grey-50 u-text-3">파도소리 부서지는</p>
-								<h4 class="u-text u-text-4">해변</h4>
+								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">해변</h4>
 						</div>
 						</button>
 					</div>
@@ -106,7 +106,7 @@
 									src="images/e7780507-d457-1fb0-2cfa-e5d145d4686f.jpg"
 									data-image-width="1200" data-image-height="800">
 								<p class="u-text u-text-grey-50 u-text-5">공기 맑은</p>
-								<h4 class="u-text u-text-6">산</h4>
+								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">산</h4>
 						</div>
 						</button>
 					</div>
@@ -120,7 +120,7 @@
 									src="images/2021072601317_1.jpg" data-image-width="960"
 									data-image-height="640">
 								<p class="u-text u-text-grey-50 u-text-7">발만 담궈도 즐거운</p>
-								<h4 class="u-text u-text-8">계곡</h4>
+								<h4 class="u-text u-text-8" style="font-family:GowunBatang-Bold">계곡</h4>
 						</div>
 						</button>
 					</div>
@@ -134,7 +134,7 @@
 									data-image-width="550" data-image-height="366"
 									src="images/da3e8cad-8252-c76d-6809-07c201264e2a.jpg">
 								<p class="u-text u-text-grey-50 u-text-9">산과 바다를 잇는</p>
-								<h4 class="u-text u-text-10">강</h4>
+								<h4 class="u-text u-text-10" style="font-family:GowunBatang-Bold">강</h4>
 						</div>
 						</button>
 					</div>
@@ -148,7 +148,7 @@
 									data-image-width="560" data-image-height="373"
 									src="images/d30f652f-3b77-9e44-b4b1-7a6e558a1e52.jpg">
 								<p class="u-text u-text-grey-50 u-text-11">밤에도 활기넘치는</p>
-								<h4 class="u-text u-text-12">도심</h4>
+								<h4 class="u-text u-text-12" style="font-family:GowunBatang-Bold">도심</h4>
 						</div>
 						</button>
 					</div>
@@ -172,7 +172,7 @@
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
-									src="images/korea_camping_spot_5.jpg" data-image-width="900"
+									src="images/caravan2.jpeg" data-image-width="900"
 									data-image-height="600">
 								<p class="u-text u-text-3">내 집 째로 이동하고 싶어!</p>
 						</div>
@@ -185,7 +185,7 @@
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
-									src="images/20243_18300_1631.jpg" data-image-width="630"
+									src="images/cbcb2.jpg" data-image-width="630"
 									data-image-height="420">
 								<p class="u-text u-text-4">내 몸 누울 곳만 있으면 되지</p>
 						</div>
@@ -198,7 +198,7 @@
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
-									src="images/26ea417b-886a-9a26-bf3c-b8167e477ec0.jpg"
+									src="images/luxury.jpg"
 									data-image-width="818" data-image-height="532">
 								<p class="u-text u-text-5">캠핑은 럭셔리해야지!</p>
 						</div>
@@ -212,7 +212,7 @@
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
-									src="images/n18.jpg">
+									src="images/classic.jpg">
 								<p class="u-text u-text-6">캠핑은 정석대로 하고 싶어!</p>
 						</div>
 						</button>
@@ -238,7 +238,7 @@
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
-									src="images/korea_camping_spot_5.jpg" data-image-width="900"
+									src="images/반려o.jpg" data-image-width="900"
 									data-image-height="600">
 								<p class="u-text u-text-3">네!!</p>
 						</div>
@@ -251,7 +251,7 @@
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
-									src="images/20243_18300_1631.jpg" data-image-width="630"
+									src="images/상관없.jpeg" data-image-width="630"
 									data-image-height="420">
 								<p class="u-text u-text-4">상관 없어요</p>
 						</div>
@@ -264,7 +264,7 @@
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
-									src="images/26ea417b-886a-9a26-bf3c-b8167e477ec0.jpg"
+									src="images/없좋.jpg"
 									data-image-width="818" data-image-height="532">
 								<p class="u-text u-text-5">없으면 좋겠어요</p>
 						</div>
@@ -291,9 +291,9 @@
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
-									src="images/korea_camping_spot_5.jpg" data-image-width="900"
+									src="images/전기.png" data-image-width="900"
 									data-image-height="600">
-								<h4 class="u-text u-text-3">전기</h4>
+								<h4 class="u-text u-text-3" style="font-family:GowunBatang-Bold">전기</h4>
 						</div>
 						</button>
 					</div>
@@ -304,9 +304,9 @@
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
-									src="images/20243_18300_1631.jpg" data-image-width="630"
+									src="images/와이파이.png" data-image-width="630"
 									data-image-height="420">
-								<h4 class="u-text u-text-4">와이파이</h4>
+								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">와이파이</h4>
 						</div>
 						</button>
 					</div>
@@ -317,9 +317,9 @@
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
-									src="images/26ea417b-886a-9a26-bf3c-b8167e477ec0.jpg"
+									src="images/온수1.png"
 									data-image-width="818" data-image-height="532">
-								<h4 class="u-text u-text-5">온수</h4>
+								<h4 class="u-text u-text-5" style="font-family:GowunBatang-Bold">온수</h4>
 						</div>
 						</button>
 					</div>
@@ -331,8 +331,8 @@
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
-									src="images/n18.jpg">
-								<h4 class="u-text u-text-6">마트/편의점</h4>
+									src="images/편의점.png">
+								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">마트/편의점</h4>
 						</div>
 						</button>
 					</div>
@@ -357,9 +357,9 @@
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
-									src="images/korea_camping_spot_5.jpg" data-image-width="900"
+									src="images/여유있는.png" data-image-width="900"
 									data-image-height="600">
-								<h4 class="u-text u-text-3">#여유있는</h4>
+								<h4 class="u-text u-text-3" style="font-family:GowunBatang-Bold">#여유있는</h4>
 						</div>
 						</button>
 					</div>
@@ -370,9 +370,9 @@
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
-									src="images/20243_18300_1631.jpg" data-image-width="630"
+									src="images/깨끗한.jpg" data-image-width="630"
 									data-image-height="420">
-								<h4 class="u-text u-text-4">#깨끗한</h4>
+								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">#깨끗한</h4>
 						</div>
 						</button>
 					</div>
@@ -383,9 +383,9 @@
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
-									src="images/26ea417b-886a-9a26-bf3c-b8167e477ec0.jpg"
+									src="images/아이놀기좋은.jpg"
 									data-image-width="818" data-image-height="532">
-								<h4 class="u-text u-text-5">#아이들 놀기 좋은</h4>
+								<h4 class="u-text u-text-5" style="font-family:GowunBatang-Bold">#아이들 놀기 좋은</h4>
 						</div>
 						</button>
 					</div>
@@ -397,8 +397,8 @@
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
-									src="images/n18.jpg">
-								<h4 class="u-text u-text-6">#별 보기 좋은</h4>
+									src="images/별보기좋은.jpg">
+								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">#별 보기 좋은</h4>
 						</div>
 						</button>
 					</div>
@@ -410,8 +410,8 @@
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-5"
 									data-image-width="1200" data-image-height="625"
-									src="images/n18.jpg">
-								<h4 class="u-text u-text-7">#그늘이 많은</h4>
+									src="images/그늘많은.png">
+								<h4 class="u-text u-text-7" style="font-family:GowunBatang-Bold">#그늘이 많은</h4>
 						</div>
 						</button>
 					</div>

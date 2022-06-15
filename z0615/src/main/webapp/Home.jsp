@@ -56,7 +56,8 @@
             <%if(mvo!=null){ %>
             
             <ul class="u-nav u-unstyled u-nav-1">
-            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="#" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
+		</li><li class="u-nav-item"><button id = "logout" style="padding: 10px 20px;">로그아웃</button>
 		</li></ul>
             <%}else{ %>            
             <ul class="u-nav u-unstyled u-nav-1">
@@ -2240,6 +2241,12 @@
 			}
 		});
 	})
+	
+	 $('#logout').on('click', function() {			
+		 session.invalidate();
+		 location.href = 'Survey-1.jsp';
+	})
+	
 	</script>
   </body>
 </html>
