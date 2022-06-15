@@ -205,8 +205,7 @@
 	$('#demo').jQCloud(words);
   </script>
       </div>
-      <%if (list.get(0).getHomepage().equals("홈페이지가 없어요ㅠ")) {%>
-      <% }%>
+      
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-e683">
       <div class="u-clearfix u-sheet u-sheet-1">
