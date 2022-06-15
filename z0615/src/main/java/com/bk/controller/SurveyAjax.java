@@ -2,6 +2,7 @@ package com.bk.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -111,6 +112,7 @@ public class SurveyAjax extends HttpServlet {
 		// 별점순으로정렬
 		List<CampVO> sortedList = list5.stream().sorted((a,b)->(int)(b.getRank()*100) - (int)(a.getRank()*100)).collect(Collectors.toList());
 		// 정렬되었나 출력		
+		Collections.shuffle(sortedList);
 		for(CampVO cvo : sortedList) {
 		}
 		for(CampVO a : list){

@@ -6,7 +6,6 @@ button{
 	opacity: 1;
 }
 button:hover {
-		background: black;
 		opacity: 0.5;
 	}
 

@@ -479,26 +479,6 @@
 			
 		})
 		
-		$('.e').on('click', function() {			
-			
-			q += $(this).children("h4").html();
-			
-			$.ajax({
-				url : "Result.jsp",
-				type : 'GET',
-				data: {"q": q},
-				success : function(res) {
-					console.log('성공');
-					location.href = 'GoResult';
-				},
-
-				error : function() {
-					console.log('실패');
-				}
-
-			});
-			
-		})
 	</script>
 </body>
 </html>

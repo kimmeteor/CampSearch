@@ -1820,12 +1820,7 @@
     </span>
     
     <script>
-		$('#carousel_a552').hide();
-		$('#carousel_6e28').hide();
-		$('#carousel_f7cd').hide();
-		$('#carousel_7a0b').hide();
-
- 
+    
 	$('#f1').on('click', function() {
 
 		var r = '허브아일랜드 불빛동화축제';
