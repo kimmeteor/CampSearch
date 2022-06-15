@@ -117,7 +117,7 @@ public class SurveyAjax extends HttpServlet {
 		}
 		for(CampVO a : list){
      		if(a.getHomepage()==null){
-     			a.setHomepage("홈페이지가 없어요ㅠ");
+     			a.setHomepage("notFound.html");
      		}
      		if(a.getAddress()==null){
      			a.setHomepage("주소가 없어요ㅠ");
