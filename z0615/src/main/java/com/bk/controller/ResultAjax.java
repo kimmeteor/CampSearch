@@ -32,9 +32,5 @@ public class ResultAjax extends HttpServlet {
 		HttpSession session = request.getSession();
 		session.setAttribute("vo", vo);
 		
-		String nextPage = "Camp-Site.jsp";		
-		response.sendRedirect(nextPage);	
-		
-		
 	}
 }

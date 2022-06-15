@@ -1,3 +1,7 @@
+<%@page import="com.bk.model.MemberVO"%>
+<%@page import="com.bk.model.CampVO"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -69,6 +73,8 @@
         
   <body class="u-body u-xl-mode"><header class="u-black u-clearfix u-header u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
         <% 
+        MemberVO mvo = new MemberVO();
+    	mvo = (MemberVO)session.getAttribute("mvo");  
         // 변수 지정
         String f_name="";
         String f_site="";
@@ -159,9 +165,17 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="All.html" style="padding: 10px 20px;">전체보기</a>
-</li></ul>
+            <%if(mvo!=null){ %>
+            
+            <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="#" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
+		</li></ul>
+            <%}else{ %>            
+            <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
+  		</li></ul>
+            
+            <%} %>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
@@ -173,7 +187,7 @@
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="Search.html" data-page-id="199526782"><img src="images/1.png" alt=""></span>
+        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="filter2.jsp" data-page-id="199526782"><img src="images/1.png" alt=""></span>
       </div></header>
     <section class="u-clearfix u-section-1" id="sec-e433">
       <div class="u-absolute-hcenter u-expanded u-grey-10 u-map">

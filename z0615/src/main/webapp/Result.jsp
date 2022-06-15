@@ -88,13 +88,12 @@
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Login.html">Login</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="All.html">전체보기</a>
 </li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="Search.html" data-page-id="199526782"><img src="images/1.png" alt=""></span>
+        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="Sfilter2.jsp" data-page-id="199526782"><img src="images/1.png" alt=""></span>
       </div></header>
     <section class="u-clearfix u-section-1" id="sec-d085">
       <div class="u-clearfix u-sheet u-sheet-1">

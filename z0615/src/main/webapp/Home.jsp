@@ -1,3 +1,4 @@
+<%@page import="com.bk.model.MemberVO"%>
 <%@page import="com.bk.model.CampVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
@@ -27,12 +28,17 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": ""
-}</script>
+}
+</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode">
+  <% 
+  		MemberVO mvo = new MemberVO();
+		mvo = (MemberVO)session.getAttribute("mvo");      		
+  %>  
   <!-- 헤더공간 -->
   <header class="u-black u-clearfix u-header u-sticky u-sticky-c20a u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-1">
@@ -46,21 +52,30 @@
 </g></svg>
             </a>
           </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
-</li></ul>
+         <div class="u-custom-menu u-nav-container">
+            <%if(mvo!=null){ %>
+            
+            <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="#" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
+		</li></ul>
+            <%}else{ %>            
+            <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
+  		</li></ul>
+            
+            <%} %>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Login.html">Login</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Login.html">Login줄엿을때</a>
 </li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="Search.html" data-page-id="199526782"><img src="images/1.png" alt=""></span>
+        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="filter2.jsp" data-page-id="199526782"><img src="images/1.png" alt=""></span>
       </div></header>
  <!--  여기까지 헤더 -->
 
@@ -1721,7 +1736,7 @@
         <h2 class="u-align-center u-custom-font u-subtitle u-text u-text-2">How Can We Help You ?</h2>
         <p class="u-align-center u-text u-text-3">맘에 쏙 드는 캠핑장 찾기, 어려우셨나요?<br>쉽고 간단한 취향 테스트로&nbsp;<br>실패없는 취향저격 캠핑장들을 만나보세요.
         </p>
-        <a href="SurveySelect.html" data-page-id="789424028" class="u-align-center u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-btn-1">start</a>
+        <a href="SurveySelect.jsp" data-page-id="789424028" class="u-align-center u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-btn-1">start</a>
       </div>
     </section>
     <section class="u-clearfix u-image u-shading u-section-7" id="sec-d419" data-image-width="1280" data-image-height="960">
