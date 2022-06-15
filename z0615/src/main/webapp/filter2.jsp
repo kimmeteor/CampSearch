@@ -94,7 +94,6 @@
         height: 10rem;
         width: 20rem;
         border: 1px solid #f3f6f9;
-        background-image: url("./assets/brand/bgimg.gif");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -415,7 +414,7 @@
             <%for(int i = j*10; i<list.size(); i++){%>
                  <%if (t<=10) {%>
                     <div class="box5">
-                          <div class="box4"></div>
+                          <div class="box4" style="background-image: url(<%=list.get(i).getPhoto()%>)"></div>
                           <div class="box3">
                                <div class="box2-1">
                                   <h3><span><%=list.get(i).getCamp_name() %></span></h3>              
