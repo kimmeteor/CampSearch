@@ -16,7 +16,6 @@
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <style>
-  
 
       .container {
         display: flex;
@@ -165,7 +164,7 @@
   
     <!--- 좌측 체크필터 기능                 -->
     <div class="page">
- <header class="u-black u-clearfix u-header u-sticky u-sticky-c20a u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
+<header class="u-black u-clearfix u-header u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-1">
           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-hover-none u-none u-text-body-alt-color u-btn-1" href="Home.jsp" data-page-id="1685410431">BackTracking</a>
         </h1>
@@ -177,31 +176,27 @@
 </g></svg>
             </a>
           </div>
-         <div class="u-custom-menu u-nav-container">
-            <%if(mvo!=null){ %>
-            
-            <ul class="u-nav u-unstyled u-nav-1">
-            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
-		</li><a href="logout" id="logOut">logout</a></ul>
-            <%}else{ %>            
-            <ul class="u-nav u-unstyled u-nav-1">
-            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
-  		</li></ul>
-            
-            <%} %>
+          <div class="u-custom-menu u-nav-container">
+    <ul class="u-nav u-unstyled u-nav-1">
+    <li class="u-nav-item">
+    <%if(mvo==null){ %>
+    	<a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
+    <%}else{ %>
+    	<a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="#" style="padding: 10px 20px;"><%=mvo.getId()%>님 반갑습니다 </a>
+    <%} %>        
+	</li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Login.html">Login줄엿을때</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Login.html">Login</a>
 </li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="filter2.jsp" data-page-id="199526782"><img src="images/1.png" alt=""></span>
-      </div></header>   
+      </div></header>  
    
       <div class="page-left">
         <form action="filterSerivce" method="get">
