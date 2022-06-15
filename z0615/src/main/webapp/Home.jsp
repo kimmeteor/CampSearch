@@ -1821,6 +1821,24 @@
     
     <script>
     
+    <%if (mvo==null) {%>
+    $('#carousel_6e28').hide();//산촌
+    $('#carousel_f7cd').hide();//선녀
+    $('#carousel_7a0b').hide();//양평
+ <%} else if (mvo.getMemlocation().equals("가평군")) {%>
+    $('#carousel_a552').hide();//기본
+    $('#carousel_f7cd').hide();//선녀
+    $('#carousel_7a0b').hide();//양평
+ <%} else if (mvo.getMemlocation().equals("양주시")) {%>
+    $('#carousel_a552').hide();//기본
+    $('#carousel_6e28').hide();//산촌
+    $('#carousel_7a0b').hide();//양평
+ <%} else if (mvo.getMemlocation().equals("양평군")) {%>
+    $('#carousel_a552').hide();//기본
+    $('#carousel_6e28').hide();//산촌
+    $('#carousel_f7cd').hide();//선녀
+ <%}%>
+ 
 	$('#f1').on('click', function() {
 
 		var r = '허브아일랜드 불빛동화축제';
