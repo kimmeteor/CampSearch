@@ -1,0 +1,140 @@
+ .u-section-1 {
+  min-height: 817px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 434px calc(((100% - 1140px) / 2) + 737px) 0 calc(((100% - 1140px) / 2) + 56px);
+}
+
+.u-section-1 .u-group-1 {
+  width: 535px;
+  min-height: 478px;
+  margin: -338px auto 60px calc(((100% - 1140px) / 2) + -52px);
+}
+
+.u-section-1 .u-image-1 {
+  width: 495px;
+  height: 438px;
+  margin: 20px auto 0 20px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.25rem;
+  font-family: KyoboHandwriting2020pdy;
+  margin: -247px 137px 0 52px;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.875rem;
+  font-family: KyoboHandwriting2020pdy;
+  font-weight: 700;
+  margin: -129px 20px 0 21px;
+}
+
+.u-section-1 .u-text-4 {
+  font-size: 1.25rem;
+  font-family: KyoboHandwriting2020pdy;
+  margin: 59px 137px 0 52px;
+}
+
+.u-section-1 .u-text-5 {
+  font-family: KyoboHandwriting2020pdy;
+  font-size: 1.25rem;
+  margin: 0 78px 0 52px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 940px) / 2) + 593px);
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-left: calc(((100% - 940px) / 2) + -52px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 720px) / 2) + 373px);
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-left: calc(((100% - 720px) / 2) + -52px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 193px);
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-left: calc(((100% - 540px) / 2) + -52px);
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 680px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 301px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -110px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}@font-face {
+  font-family: 'KyoboHandwriting2020pdy';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/KyoboHandwriting2020pdy.ttf);
+}@font-face {
+  font-family: 'Walkester';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Walkester.ttf);
+}@font-face {
+  font-family: 'GowunBatang-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GowunBatang-Bold.ttf);
+}@font-face {
+  font-family: 'HSSaemaul-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HSSaemaul-Regular.ttf);
+}

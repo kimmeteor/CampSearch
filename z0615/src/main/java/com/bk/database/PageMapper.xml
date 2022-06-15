@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace : mapper 파일을 구분할 수 있는 고유 실별자 -->
+<!-- 이름을 지정해줄 때 DAO 클래스파일명과 일치시키는 경우가 많음 -->
+<mapper namespace="com.bk.database.CampDAO">
+	<!-- parameterType : alias 지정했는지 확인할것 -->
+
+	<select id="Search"
+	resultType="CampVO"
+	>
+		select * from camp
+		where camp_name like '%${search}%'
+	</select>
+	
+	<select id="SearchLoc"
+	resultType="CampVO"
+	>
+		select * from camp
+		where location like '%${search}%'
+	</select>
+
+	<select id="SearchList"
+	parameterType="java.util.HashMap"
+	resultType="CampVO"
+	>
+	select *
+	from
+		(select*
+		from
+			(select *
+			from
+				(select*
+				from(select * from camp	
+			 		where location like 
+		 			<foreach collection = "f1_list" item ="search"  separator="or location like">
+		 			'%${search}%'
+					</foreach>
+					)
+				where mainfacilities like
+				<foreach collection = "f2_list" item="search2" separator = "or mainfacilities like">
+				'%${search2}%'
+				</foreach>
+				)
+			where tag like
+			<foreach collection = "f3_list" item="search3" separator = "or tag like">
+			'%${search3}%'
+			</foreach>
+			)
+		where pet like
+		<foreach collection = "f4_list" item = "search4" separator = "or pet like">
+		'%${search4}%'
+		</foreach>
+		)
+	where amenities like
+	<foreach collection = "f5_list" item = "search5" separator ="or amenities like">
+	'%${search5}%'
+	</foreach>	
+	</select>
+	
+	
+
+	<select id="SearchOne"
+	resultType="CampVO"
+	>
+		select * from camp
+		where camp_num =#{search}
+	</select>
+
+	<select id="SearchDivision"
+	resultType="CampVO"
+	>
+		select * from camp
+		where division like '%${text}%'
+	</select>
+
+</mapper>

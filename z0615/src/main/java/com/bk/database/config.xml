@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+ <typeAliases>
+ <typeAlias type="com.bk.model.MemberVO" alias="MemberVO"/>
+ <typeAlias type="com.bk.model.CampVO" alias="CampVO"/>
+ 
+ </typeAliases>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+      <!-- 프로젝트에서 고칠부분 -->
+        <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@project-db-stu.ddns.net:1524:xe"/>
+        <property name="username" value="cgi_2_0516_5"/>
+        <property name="password" value="smhrd5"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <!-- 내가 사용할 실제 sql 파일이 들어있는 mapper로 설정해줄 것 -->
+  <mappers>
+    <mapper resource="com/bk/database/MemberMapper.xml"/>
+    <mapper resource="com/bk/database/PageMapper.xml"/>
+  </mappers>
+  
+  
+</configuration>
