@@ -36,6 +36,6 @@ public class LoginService extends HttpServlet {
 			System.out.println("½ÇÆÐ");
 		}
 		response.sendRedirect("Home.jsp");
-		response.sendRedirect("Result.jsp");
+		return;
 	}
 }

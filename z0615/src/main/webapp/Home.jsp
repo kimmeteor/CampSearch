@@ -37,7 +37,7 @@
   <body class="u-body u-xl-mode">
   <% 
   		MemberVO mvo = new MemberVO();
-		mvo = (MemberVO)session.getAttribute("mvo");      		
+		mvo = (MemberVO)session.getAttribute("mvo"); 
   %>  
   <!-- 헤더공간 -->
   <header class="u-black u-clearfix u-header u-sticky u-sticky-c20a u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
@@ -1823,6 +1823,7 @@
 		$('#carousel_a552').hide();
 		$('#carousel_6e28').hide();
 		$('#carousel_f7cd').hide();
+		$('#carousel_7a0b').hide();
 
  
 	$('#f1').on('click', function() {
