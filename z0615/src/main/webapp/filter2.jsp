@@ -164,7 +164,7 @@
   
     <!--- 좌측 체크필터 기능                 -->
     <div class="page">
-<header class="u-black u-clearfix u-header u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
+ <header class="u-black u-clearfix u-header u-sticky u-sticky-c20a u-header" id="sec-9c89"><div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-1">
           <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-hover-none u-none u-text-body-alt-color u-btn-1" href="Home.jsp" data-page-id="1685410431">BackTracking</a>
         </h1>
@@ -174,9 +174,10 @@
               <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
               <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
 </g></svg>
-            </a>
-          </div>
-          <div class="u-custom-menu u-nav-container">
+	
+    </a>
+    </div>
+    <div class="u-custom-menu u-nav-container">
     <ul class="u-nav u-unstyled u-nav-1">
     <li class="u-nav-item">
     <%if(mvo==null){ %>
@@ -196,7 +197,7 @@
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-      </div></header>  
+      </div></header> 
    
       <div class="page-left">
         <form action="filterSerivce" method="get">
