@@ -57,7 +57,7 @@
             
             <ul class="u-nav u-unstyled u-nav-1">
             <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" style="padding: 10px 20px;"><%=mvo.getId() %>님 반갑습니다</a>
-		</li></ul>
+		</li><a href="logout" id="logOut">logout</a></ul>
             <%}else{ %>            
             <ul class="u-nav u-unstyled u-nav-1">
             <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-palette-1-light-1" href="Login.html" style="padding: 10px 20px;">Login</a>
