@@ -1729,7 +1729,6 @@
         </span>
       </a>
     </section>
-    <section class="u-clearfix u-image u-shading u-section-5" id="sec-742d" data-image-width="1280" data-image-height="720"></section>
     <section class="u-align-center u-clearfix u-grey-5 u-section-6" id="carousel_4ff3">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h5 class="u-align-center u-text u-text-grey-40 u-text-1">back tracking</h5>
@@ -1739,6 +1738,7 @@
         <a href="SurveySelect.jsp" data-page-id="789424028" class="u-align-center u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-btn-1">start</a>
       </div>
     </section>
+    <section class="u-clearfix u-image u-shading u-section-5" id="sec-742d" data-image-width="1280" data-image-height="720"></section>
     <section class="u-clearfix u-image u-shading u-section-7" id="sec-d419" data-image-width="1280" data-image-height="960">
       <div class="u-clearfix u-sheet u-sheet-1">
         <img class="u-image u-image-default u-image-1" src="images/2022_Summer1_bean_bg_left.png" alt="" data-image-width="425" data-image-height="392">
@@ -1825,15 +1825,15 @@
     $('#carousel_6e28').hide();//산촌
     $('#carousel_f7cd').hide();//선녀
     $('#carousel_7a0b').hide();//양평
- <%} else if (mvo.getMemlocation().equals("가평군")) {%>
+ <%} else if (mvo.getMemlocation().equals("가평군") || mvo.getMemlocation().equals("동두천") || mvo.getMemlocation().equals("가평군") || mvo.getMemlocation().equals("남양주") ) {%>
     $('#carousel_a552').hide();//기본
     $('#carousel_f7cd').hide();//선녀
     $('#carousel_7a0b').hide();//양평
- <%} else if (mvo.getMemlocation().equals("양주시")) {%>
+ <%} else if (mvo.getMemlocation().equals("양주시") || mvo.getMemlocation().equals("파주시") || mvo.getMemlocation().equals("김포시") || mvo.getMemlocation().equals("고양시") ) {%>
     $('#carousel_a552').hide();//기본
     $('#carousel_6e28').hide();//산촌
     $('#carousel_7a0b').hide();//양평
- <%} else if (mvo.getMemlocation().equals("양평군")) {%>
+ <%} else if (mvo.getMemlocation().equals("양평군") || mvo.getMemlocation().equals("용인시") || mvo.getMemlocation().equals("안성시") || mvo.getMemlocation().equals("화성시") ) {%>
     $('#carousel_a552').hide();//기본
     $('#carousel_6e28').hide();//산촌
     $('#carousel_f7cd').hide();//선녀

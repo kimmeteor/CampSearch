@@ -198,11 +198,11 @@
 			type : 'GET',
 			data : {"result" : result},
 			success : function(q){
-				console.log('ì±ê³µ');
+				console.log('성공');
 				console.log(q);
 			},
 			error : function(){
-				console.log('ì¤í¨');
+				console.log('실패');
 			}		    			
 		});  
    })
