@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.bk.model.CampDAO;
 import com.bk.model.CampVO;
@@ -100,34 +101,9 @@ public class filterService extends HttpServlet {
 		
 		System.out.println(list1.size());
 		
-		/*
-		for(CampVO a : list1) {
-			System.out.println(a);
-		}
-		
-		
-		/*String[] arr = a.split("/");
-		for(int i = 0; i<arr.length;i++) {
-			System.out.println(arr[i]);
-		}
-		
-		
-		List<CampVO> list = new ArrayList<CampVO>();
-		CampDAO dao = new CampDAO();
-		list = dao.SearchLoc(arr[1]);
-		System.out.println(arr[1]);
-		/*
-		List<CampVO> list2 = new ArrayList<CampVO>();
-		for(int i=0; i<list.size(); i++) {
-			if(list.get(i).getMainfacilities().contains(x[1])) {
-				list2.add(list.get(i));
-			}			
-		}
-		*/
-		// 해변 -> location, 자동차야영장 -> mainfacilites, 별보기좋은 -> tag,  펫->pet, 전기 ->amenities
-		//System.out.println(list.size());
-		
-		
+		HttpSession session3 = request.getSession();
+	    session3.setAttribute("select", list1);
+	      
 		response.sendRedirect("Home.jsp");	
 		
 		
