@@ -74,7 +74,7 @@
         justify-content: center;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid #000;
+        border: 1px solid #9b9584;
 
         margin-bottom: 50px;
         background-color: rgba(255, 255, 192, 0.1);
@@ -111,6 +111,7 @@
       .page {
         width: auto;
         height: 2000px;
+        background-color: #fff9e6;
        
       }
       .header {
@@ -130,7 +131,7 @@
       .box5 {
         height: 14rem;
         width: 100%px;
-        border: 5px  inset #666;
+        border: 3px  solid #ccc6b4;
         display: flex;
         justify-content: space-around;
         justify-content: center;
@@ -179,9 +180,13 @@
         outline: none;
         padding-left: 10px;
         margin-left: 80px;
-        background-color: #E86F52;
-        border-color: #e3745b;
-        color: #f3f6f9;
+        background-color: #9b9584;
+        border-color: #9b9584;
+        color: #000;
+       
+      }
+      #submit{
+       font-family:'GowunBatan-Bold';
       }
       h3{
 
