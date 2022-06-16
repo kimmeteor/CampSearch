@@ -522,7 +522,7 @@
     
     let num = 0;
     <%if(list!=null){ %>
-    <%for(int i = 0 ; i < list.size()/10+1; i++){ %>
+    <%for(int i = 0 ; i < list.size(); i++){ %>
     $('#a<%=list.get(i).getCamp_num()%>').on('click', function() {			
      	num = <%=list.get(i).getCamp_num()%>;
     	 	
