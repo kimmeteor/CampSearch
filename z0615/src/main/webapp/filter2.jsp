@@ -60,12 +60,6 @@
 }
 
 
-
-
-
-
-
-
 .box4, span, label{
 	font-family:'GowunBatang-Bold';
 
@@ -469,7 +463,7 @@
             <%int t=1; %>
             <%for(int i = j*10; i<list.size(); i++){%>
                  <%if (t<=10) {%>
-                    <div class="box5">
+                    <div class="box5" id = "a<%=list.get(i).getCamp_num()%>">
                           <div class="box4" style="background-image: url(<%=list.get(i).getPhoto()%>)"></div>
                           <div class="box3">
                                <div class="box2-1">
@@ -520,7 +514,32 @@
        
        });
     <%}%>
-   
+    
+    let num = 0;
+    <%if(list!=null){ %>
+    <%for(int i = 0 ; i < list.size()/10+1; i++){ %>
+    $('#a<%=list.get(i).getCamp_num()%>').on('click', function() {			
+     	num = <%=list.get(i).getCamp_num()%>;
+    	 	
+    		$.ajax({
+    			url : "HomeAjax",
+    			type : 'GET',
+    			data: {"num":  num},
+    			success : function(res) {
+    				console.log('성공');
+    				location.href = 'GoCampSite';
+    			},
+    			error : function() {
+    				console.log('실패');
+    			}
+    		});
+    	}) 
+       
+    <%} %>
+ <%} %> 
+
+
+
     </script>
   </body>
 </html>
