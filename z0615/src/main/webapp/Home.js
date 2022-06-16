@@ -7,13 +7,13 @@ window.addEventListener('scroll',function(){
     console.log('scroll',value);
     console.log(box);
 
-if(value<700){
-	box.style.animation ='slide 1s ease-out';
-	
-	
-}else if(value>900){
+if(value>800){
 	
 	box.style.animation = 'backslide 1s ease-out forwards';
+	
+}else{
+	box.style.animation ='slide 1s ease-out';
+	
 }
 
 

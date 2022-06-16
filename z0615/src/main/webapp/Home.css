@@ -4,7 +4,7 @@
 	position : absolute;
 	top:100px;
 	left:-200px;
-	animation: '';
+	animation: 'slide 1s ease-out';
 	
 }
 #TextBox h1{
