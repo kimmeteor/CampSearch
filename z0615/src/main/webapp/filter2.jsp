@@ -101,9 +101,10 @@ to {
 
 .page-left {
 	float: left;
-	height: 100vh;
+	height: 850px;
 	width: 35%;
-	border: 1px solid #f3f6f9;
+	border: 4px solid #9b9584;
+	border-radius:20px;
 	margin-right: 1px;
 	display: flex;
 }

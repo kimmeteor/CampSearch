@@ -1,17 +1,13 @@
 .u-btn-1{
-	
-	
 	font-family: 'GowunBatang-Bold';
-	
-	
 }
+
 @font-face {
   font-family: 'GowunBatang-Bold';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/GowunBatang-Bold.ttf);
 }
-
 
  .a1{
   border-style: solid;
@@ -23,7 +19,6 @@
   cursor:pointer;
   font-family: 'GowunBatang-Bold';
 }
- 
  .u-section-1 {
   background-image: none;
 }
