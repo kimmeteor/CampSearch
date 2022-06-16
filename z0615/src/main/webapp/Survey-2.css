@@ -1,3 +1,18 @@
+.u-btn-1{
+	
+	
+	font-family: 'GowunBatang-Bold';
+	
+	
+}
+@font-face {
+  font-family: 'GowunBatang-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GowunBatang-Bold.ttf);
+}
+
+
  .a1{
   border-style: solid;
   font-weight: 700;
@@ -6,6 +21,7 @@
   margin: 83px auto 0;
   padding: 10px 267px 11px 266px;
   cursor:pointer;
+  font-family: 'GowunBatang-Bold';
 }
  
  .u-section-1 {
@@ -1977,24 +1993,4 @@
   .u-section-7 .u-text-13 {
     width: 340px;
   }
-}@font-face {
-  font-family: 'Cafe24Danjunghae';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Cafe24Danjunghae.ttf);
-}@font-face {
-  font-family: 'Walkester';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Walkester.ttf);
-}@font-face {
-  font-family: 'GowunBatang-Bold';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/GowunBatang-Bold.ttf);
-}@font-face {
-  font-family: 'HSSaemaul-Regular';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/HSSaemaul-Regular.ttf);
 }

@@ -4,6 +4,12 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+@font-face {
+  font-family: 'GowunBatang-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GowunBatang-Bold.ttf);
+}
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -363,7 +369,7 @@ span.fr-img-caption.fr-view {
 /*end-commonstyles library*/@charset "UTF-8";
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'GowunBatang-Bold';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1026,7 +1032,7 @@ ol {
   cursor: pointer;
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: 'GowunBatang-Bold';
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -1080,7 +1086,7 @@ ol {
 .u-tab-item a,
 .u-nav-item a {
   font-size: inherit;
-  font-family: inherit;
+  font-family: 'GowunBatang-Bold';
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -1148,7 +1154,7 @@ a {
   font-style: inherit !important;
   font-size: inherit !important;
   font-weight: inherit !important;
-  font-family: inherit !important;
+  font-family: 'GowunBatang-Bold'!important;
   line-height: inherit !important;
   letter-spacing: inherit !important;
   text-transform: inherit !important;
@@ -1156,7 +1162,7 @@ a {
 .u-logo {
   color: inherit;
   font-size: inherit;
-  font-family: inherit;
+  font-family: 'GowunBatang-Bold';
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -15405,6 +15411,7 @@ h6 {
   line-height: 1.2;
   font-weight: 500;
   color: inherit;
+   font-family: 'GowunBatang-Bold';
 }
 h1 {
   font-size: 2.25rem;
@@ -15420,6 +15427,7 @@ h4 {
 }
 h5 {
   font-size: 1.125rem;
+
 }
 h6 {
   font-size: 1.125rem;
@@ -21522,7 +21530,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: 'GowunBatang-Bold';
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -21546,7 +21554,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: GowunBatang-Bold !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -37469,22 +37477,25 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
-        h5
-        {
-        font-weight: 400;
+        
+        h5{
+        font-weight: 400px;
         font-size: 1.25rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        
         h6
         {
-        font-weight: 400;
+        font-weight: 400px;
         font-size: 1.125rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        
+
         p.u-large-text
         {
         font-size: 1.25rem;

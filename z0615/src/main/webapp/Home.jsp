@@ -1731,6 +1731,11 @@
     </section>
     <section class="u-align-center u-clearfix u-grey-5 u-section-6" id="carousel_4ff3">
       <div class="u-clearfix u-sheet u-sheet-1">
+
+       
+       <div id="TextBox"><h1>LIFE is Journey</h1></div>
+       
+      
         <h5 class="u-align-center u-text u-text-grey-40 u-text-1">back tracking</h5>
         <h2 class="u-align-center u-custom-font u-subtitle u-text u-text-2">How Can We Help You ?</h2>
         <p class="u-align-center u-text u-text-3">맘에 쏙 드는 캠핑장 찾기, 어려우셨나요?<br>쉽고 간단한 취향 테스트로&nbsp;<br>실패없는 취향저격 캠핑장들을 만나보세요.
