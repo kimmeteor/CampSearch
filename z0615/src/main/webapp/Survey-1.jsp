@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <title>Survey 1</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Survey-1.css" media="screen">
+	<link rel="stylesheet" href="Survey-1.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.12.14, nicepage.com">
@@ -28,10 +28,363 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": ""
-}</script>
+	}
+	</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Survey 1">
     <meta property="og:type" content="website">
+    <style>
+    
+css
+
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-wrapper button {
+  padding: 20px;
+  border: none;
+  background: #d5d8e7;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  color: #292d48;
+  font-size: 18px;
+}
+
+/* 1번째 스타일 */
+.page-wrapper button .cart-item {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: -10px;
+  right: -10px;
+}
+.page-wrapper button .cart-item:before {
+  content: "1";
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2bd156;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.page-wrapper button.sendtocart .cart-item {
+  display: block;
+  animation: xAxis 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+.page-wrapper button.sendtocart .cart-item:before {
+  animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* 1번째 스타일 끝 */
+
+/* 2번째 스타일 */
+.page-wrapper button .cart-item2 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: -10px;
+  right: -10px;
+}
+.page-wrapper button .cart-item2:before {
+  content: "1";
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2bd156;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.page-wrapper button.sendtocart .cart-item2 {
+  display: block;
+  animation: xAxis2 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+.page-wrapper button.sendtocart .cart-item2:before {
+  animation: yAxis2 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+/* 2번째 스타일 끝 */
+
+
+/* 3번째 스타일 */
+.page-wrapper button .cart-item3 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: -10px;
+  right: -10px;
+}
+.page-wrapper button .cart-item3:before {
+  content: "1";
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2bd156;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.page-wrapper button.sendtocart .cart-item3 {
+  display: block;
+  animation: xAxis3 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+.page-wrapper button.sendtocart .cart-item3:before {
+  animation: yAxis3 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+/* 3번째 스타일 끝 */
+
+
+/* 4번째 스타일 */
+.page-wrapper button .cart-item4 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: -10px;
+  right: -10px;
+}
+.page-wrapper button .cart-item4:before {
+  content: "1";
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2bd156;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.page-wrapper button.sendtocart .cart-item4 {
+  display: block;
+  animation: xAxis4 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+.page-wrapper button.sendtocart .cart-item4:before {
+  animation: yAxis4 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+/* 4번째 스타일 끝 */
+
+
+/* 5번째 스타일 */
+.page-wrapper button .cart-item5 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: -10px;
+  right: -10px;
+}
+.page-wrapper button .cart-item5:before {
+  content: "1";
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #2bd156;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.page-wrapper button.sendtocart .cart-item5 {
+  display: block;
+  animation: xAxis5 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+.page-wrapper button.sendtocart .cart-item5:before {
+  animation: yAxis5 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+/* 5번째 스타일 끝 */
+
+
+.backpack{
+
+ z-index: 2;
+    position: absolute;
+    left: -55px;
+    top:-95px;
+    width:400px;
+    height:400px;
+
+}
+
+
+
+.cart {
+ position: fixed;
+    top: 90px;
+    right: 975px;
+    width: 50px;
+    height: 40px;
+    /* background: #292d48; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 1;
+}
+.cart i {
+  font-size: 25px;
+  color: white;
+}
+.cart:before {
+  content: attr(data-totalitems);
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 26px;
+    right: -161px;
+    background: forestgreen;
+    line-height: 36px;
+    padding: 0 5px;
+    height: 36px;
+    min-width: 36px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 3;
+}
+.cart.shake {
+  animation: shakeCart 0.4s ease-in-out forwards;
+}
+
+
+/* 1번째 이동값 */
+
+@keyframes xAxis {
+  100% {
+    transform: translateX(calc(50vw - 105px));
+  }
+}
+@keyframes yAxis {
+  100% {
+    transform: translateY(calc(-50vh + 75px));
+  }
+}
+/* 1번째 이동 값 끝  */
+
+/* 2번째 이동값 */
+
+@keyframes xAxis2 {
+  100% {
+    transform: translateX(calc(+50vw + 100px));
+  }
+}
+@keyframes yAxis2 {
+  100% {
+    transform: translateY(calc(-50vh + 75px));
+  }
+}
+/* 2번째 이동 값 끝  */
+
+/* 3번째 이동값 */
+
+@keyframes xAxis3 {
+  100% {
+    transform: translateX(calc(0px));
+  }
+}
+@keyframes yAxis3 {
+  100% {
+    transform: translateY(calc(-50vh + 75px));
+  }
+}
+/* 3번째 이동 값 끝  */
+
+/* 4번째 이동값 */
+
+@keyframes xAxis4 {
+  100% {
+    transform: translateX(calc(-50vw + 100px));
+  }
+}
+@keyframes yAxis4 {
+  100% {
+    transform: translateY(calc(-50vh + 75px));
+  }
+}
+/* 4번째 이동 값 끝  */
+
+/* 5번째 이동값 */
+
+@keyframes xAxis5 {
+  100% {
+    transform: translateX(calc(-50vw + 100px));
+  }
+}
+@keyframes yAxis5 {
+  100% {
+    transform: translateY(calc(-50vh + 75px));
+  }
+}
+/* 5번째 이동 값 끝  */
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes shakeCart {
+  25% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+</style>
+    
   </head>
   <body class="u-body u-xl-mode">
      <%
@@ -72,10 +425,22 @@
           </div>
         </nav><span class="u-file-icon u-icon u-text-white u-icon-1" data-href="filter2.jsp" data-page-id="199526782"><img src="images/1.png" alt=""></span>
       </div></header>
+      <br>
+      <br>
+  
+   <section>
+   
+   <div id="cart" class="cart" data-totalitems="0">
+    <i class="fas fa-shopping-cart"></i>
+    <img class="backpack" src="./assets/brand/KakaoTalk_20220617_104813916.png">
+    
+  </div>
+   </section>
+       
    <section class="u-align-left u-clearfix u-white u-section-1"
 		id="sec-6854">
 		<div class="u-clearfix u-sheet u-sheet-1">
-			<h2 class="u-align-center u-text u-text-default u-text-1">01</h2>
+			<h2 class="u-align-center u-text u-text-default u-text-1"></h2>
 			<div
 				class="u-align-center u-border-1 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
 			<h3 class="u-align-center u-text u-text-2">Q. 생각하는 것만으로도 마음이 설레는
@@ -86,20 +451,28 @@
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-white u-list-item-1">
 						<div
 							class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-							<button class="a">
-								<img alt=""
-									class="u-expanded-width u-image u-image-default u-image-1"
-									src="images/jhjh.jpg" data-image-width="407"
-									data-image-height="407">
-								<p class="u-text u-text-grey-50 u-text-3">파도소리 부서지는</p>
-								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">해변</h4>
+							<div class="page-wrapper">
+								<button class="a">
+									<img alt=""
+										class="u-expanded-width u-image u-image-default u-image-1"
+										src="images/jhjh.jpg" data-image-width="407"
+										data-image-height="407">
+									<p class="u-text u-text-grey-50 u-text-3">파도소리 부서지는</p>
+      								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">해변</h4>
+      								<span class="cart-item"></span>
+							</button>
+  						</div>
+								
+								
+								
 						</div>
-						</button>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+							
+							<div class="page-wrapper">
 							<button class="a">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
@@ -107,13 +480,16 @@
 									data-image-width="1200" data-image-height="800">
 								<p class="u-text u-text-grey-50 u-text-5">공기 맑은</p>
 								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">산</h4>
+								<span class="cart-item2"></span>
 						</div>
 						</button>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+							<div class="page-wrapper">
 							<button class="a">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
@@ -121,13 +497,16 @@
 									data-image-height="640">
 								<p class="u-text u-text-grey-50 u-text-7">발만 담궈도 즐거운</p>
 								<h4 class="u-text u-text-8" style="font-family:GowunBatang-Bold">계곡</h4>
+								<span class="cart-item3"></span>
 						</div>
 						</button>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+							<div class="page-wrapper">
 							<button class="a">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
@@ -135,13 +514,16 @@
 									src="images/da3e8cad-8252-c76d-6809-07c201264e2a.jpg">
 								<p class="u-text u-text-grey-50 u-text-9">산과 바다를 잇는</p>
 								<h4 class="u-text u-text-10" style="font-family:GowunBatang-Bold">강</h4>
+								<span class="cart-item4"></span>
 						</div>
 						</button>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+							<div class="page-wrapper">
 							<button class="a">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-5"
@@ -149,8 +531,10 @@
 									src="images/d30f652f-3b77-9e44-b4b1-7a6e558a1e52.jpg">
 								<p class="u-text u-text-grey-50 u-text-11">밤에도 활기넘치는</p>
 								<h4 class="u-text u-text-12" style="font-family:GowunBatang-Bold">도심</h4>
+								<span class="cart-item5"></span>
 						</div>
 						</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -159,7 +543,7 @@
 	<section class="u-align-left u-clearfix u-white u-section-2"
 		id="sec-9b60">
 		<div class="u-clearfix u-sheet u-sheet-1">
-			<h2 class="u-align-center u-text u-text-default u-text-1">02</h2>
+			<h2 class="u-align-center u-text u-text-default u-text-1"></h2>
 			<div
 				class="u-align-center u-border-1 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
 			<h3 class="u-align-center u-text u-text-2">Q. 어떤 의견이 가장 공감가나요?</h3>
@@ -169,53 +553,65 @@
 						class="u-align-center u-container-style u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-white u-list-item-1">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-1">
+							<div class="page-wrapper">
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
 									src="images/caravan2.jpeg" data-image-width="900"
 									data-image-height="600">
 								<p class="u-text u-text-3">내 집 째로 이동하고 싶어!</p>
-						</div>
+								<span class="cart-item"></span>
 						</button>
+						</div>
+					</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white u-list-item-2">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-2">
+							<div class="page-wrapper">
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
 									src="images/cbcb2.jpg" data-image-width="630"
 									data-image-height="420">
 								<p class="u-text u-text-4">내 몸 누울 곳만 있으면 되지</p>
-						</div>
+								<span class="cart-item2"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white u-list-item-3">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-3">
+							<div class="page-wrapper">
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
 									src="images/luxury.jpg"
 									data-image-width="818" data-image-height="532">
 								<p class="u-text u-text-5">캠핑은 럭셔리해야지!</p>
-						</div>
+								<span class="cart-item4"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-hover-feature u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white u-list-item-4">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-4">
+							<div class="page-wrapper">
 							<button class="b">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
 									src="images/classic.jpg">
 								<p class="u-text u-text-6">캠핑은 정석대로 하고 싶어!</p>
-						</div>
+								<span class="cart-item5"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -235,40 +631,49 @@
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-white u-list-item-1">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-1">
+							<div class="page-wrapper">
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
 									src="images/반려o.jpg" data-image-width="900"
 									data-image-height="600">
 								<p class="u-text u-text-3">네!!</p>
-						</div>
+								<span class="cart-item2"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-2">
+							<div class="page-wrapper">
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
 									src="images/상관없.jpeg" data-image-width="630"
 									data-image-height="420">
 								<p class="u-text u-text-4">상관 없어요</p>
-						</div>
+								<span class="cart-item3"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-3">
+							<div class="page-wrapper">
 							<button class="c">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
 									src="images/없좋.jpg"
 									data-image-width="818" data-image-height="532">
 								<p class="u-text u-text-5">없으면 좋겠어요</p>
-						</div>
+								<span class="cart-item4"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -288,53 +693,65 @@
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-white u-list-item-1">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-1">
+							<div class="page-wrapper">
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
 									src="images/전기.png" data-image-width="900"
 									data-image-height="600">
 								<h4 class="u-text u-text-3" style="font-family:GowunBatang-Bold">전기</h4>
-						</div>
+								<span class="cart-item"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-2">
+							<div class="page-wrapper">
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
 									src="images/와이파이.png" data-image-width="630"
 									data-image-height="420">
 								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">와이파이</h4>
-						</div>
+								<span class="cart-item2"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-3">
+							<div class="page-wrapper">
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
 									src="images/온수1.png"
 									data-image-width="818" data-image-height="532">
 								<h4 class="u-text u-text-5" style="font-family:GowunBatang-Bold">온수</h4>
-						</div>
+								<span class="cart-item4"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-4">
+							<div class="page-wrapper">
 							<button class="d">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
 									src="images/편의점.png">
 								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">마트/편의점</h4>
-						</div>
+								<span class="cart-item5"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -354,66 +771,81 @@
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-white u-list-item-1">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-1">
+							<div class="page-wrapper">
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-1"
 									src="images/여유있는.png" data-image-width="900"
 									data-image-height="600">
 								<h4 class="u-text u-text-3" style="font-family:GowunBatang-Bold">#여유있는</h4>
-						</div>
+								<span class="cart-item"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-2">
+							<div class="page-wrapper">
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-2"
 									src="images/깨끗한.jpg" data-image-width="630"
 									data-image-height="420">
 								<h4 class="u-text u-text-4" style="font-family:GowunBatang-Bold">#깨끗한</h4>
-						</div>
+								<span class="cart-item2"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-3">
+							<div class="page-wrapper">
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-3"
 									src="images/아이놀기좋은.jpg"
 									data-image-width="818" data-image-height="532">
 								<h4 class="u-text u-text-5" style="font-family:GowunBatang-Bold">#아이들 놀기 좋은</h4>
-						</div>
+								<span class="cart-item3"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-4">
+							<div class="page-wrapper">
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-4"
 									data-image-width="1200" data-image-height="625"
 									src="images/별보기좋은.jpg">
 								<h4 class="u-text u-text-6" style="font-family:GowunBatang-Bold">#별 보기 좋은</h4>
-						</div>
+								<span class="cart-item4"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 					<div
 						class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-video-cover u-white">
 						<div
 							class="u-container-layout u-similar-container u-container-layout-5">
+							<div class="page-wrapper">
 							<button class="e">
 								<img alt=""
 									class="u-expanded-width u-image u-image-default u-image-5"
 									data-image-width="1200" data-image-height="625"
 									src="images/그늘많은.png">
 								<h4 class="u-text u-text-7" style="font-family:GowunBatang-Bold">#그늘이 많은</h4>
-						</div>
+								<span class="cart-item5"></span>
 						</button>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -427,32 +859,32 @@
 		$('#sec-428a').hide();
 
 		$('.a').on('click', function() {
-			$('#sec-6854').hide();
-			$('#sec-9b60').show();
+			$('#sec-6854').delay(2500).fadeOut(0);
+			$('#sec-9b60').delay(2500).fadeIn(0);
 			
 			q += $(this).children("h4").html()+"/";
 					
 		})
 		
 		$('.b').on('click', function() {
-			$('#sec-9b60').hide();
-			$('#sec-e4e9').show();
+			$('#sec-9b60').delay(2500).fadeOut(0);
+			$('#sec-e4e9').delay(2500).fadeIn(0);
 			
 			q += $(this).children("p").html()+"/";
 			
 		})
 		
 		$('.c').on('click', function() {
-			$('#sec-e4e9').hide();
-			$('#sec-9901').show();
+			$('#sec-e4e9').delay(2500).fadeOut(0);
+			$('#sec-9901').delay(2500).fadeIn(0);
 			
 			q += $(this).children("p").html()+"/";
 			
 		})
 		
 		$('.d').on('click', function() {
-			$('#sec-9901').hide();
-			$('#sec-428a').show();
+			$('#sec-9901').delay(2500).fadeOut(0);
+			$('#sec-428a').delay(2500).fadeIn(0);
 			
 			q += $(this).children("h4").html()+"/";
 			
@@ -480,5 +912,30 @@
 		})
 		
 	</script>
+	 <script>
+
+$(document).ready(function(){
+
+let bar = document.getElementsByTagName('button');
+for(let i=0;i<bar.length; i++){
+  $(bar[i]).on('click',function(){
+    
+    var button = $(this);
+    var cart = $('#cart');
+    var cartTotal = cart.attr('data-totalitems');
+    var newCartTotal = parseInt(cartTotal) + 1;
+    
+    button.addClass('sendtocart');
+    setTimeout(function(){
+      button.removeClass('sendtocart');
+      cart.addClass('shake').attr('data-totalitems', newCartTotal);
+      setTimeout(function(){
+        cart.removeClass('shake');
+      },500)
+    },1000)
+  })
+}
+})
+    </script>
 </body>
 </html>

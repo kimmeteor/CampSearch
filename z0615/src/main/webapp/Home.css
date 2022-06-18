@@ -1,3 +1,23 @@
+#mainlogo{
+	
+	position: absolute;
+    right: -300px;
+    top: 120px;
+	animation:sli 2s ease-out;
+}
+
+
+@keyframes sli{
+	
+	
+	from{
+	 right: -600px;
+	}to{
+	
+	right: -300px;
+	}
+}
+
 
 #TextBox{
 	
