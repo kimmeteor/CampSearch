@@ -26,6 +26,7 @@ public class CampDAO {
 		return list;
 	}
 	
+	
 	public List<CampVO> SearchList(Map<String, Object> param){
 		SqlSession session = sqlSessionFactory.openSession(true);
 		List<CampVO> list = new ArrayList<CampVO>();		
