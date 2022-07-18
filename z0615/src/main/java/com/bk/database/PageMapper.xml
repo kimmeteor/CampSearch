@@ -21,10 +21,7 @@
 		where location like '%${search}%'
 	</select>
 
-	<select id="SearchList"
-	parameterType="java.util.HashMap"
-	resultType="CampVO"
-	>
+<select id="SearchList" parameterType="java.util.HashMap" resultType="CampVO">
 	select *
 	from
 		(select*
@@ -53,11 +50,11 @@
 		'%${search4}%'
 		</foreach>
 		)
-	where amenities like
-	<foreach collection = "f5_list" item = "search5" separator ="or amenities like">
-	'%${search5}%'
+	  where amenities like
+	 <foreach collection = "f5_list" item = "search5" separator ="or amenities like">
+	 '%${search5}%'	
 	</foreach>	
-	</select>
+</select>
 	
 	
 

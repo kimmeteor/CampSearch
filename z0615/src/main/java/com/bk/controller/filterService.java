@@ -35,11 +35,11 @@ public class filterService extends HttpServlet {
 //		System.out.println(list1.size());
 		List<String> f1_list = new ArrayList<>();
 		if(f1==null) {
-			f1_list.add("ÇØº¯");
-			f1_list.add("°è°î");
-			f1_list.add("°­");
-			f1_list.add("µµ½É");
-			f1_list.add("»ê");
+			f1_list.add("í•´ë³€");
+			f1_list.add("ê³„ê³¡");
+			f1_list.add("ê°•");
+			f1_list.add("ë„ì‹¬");
+			f1_list.add("ì‚°");
 		}else {
 			for(int i = 0; i<f1.length;i++) {		
 				f1_list.add(f1[i]);
@@ -47,10 +47,10 @@ public class filterService extends HttpServlet {
 		}
 		List<String> f2_list = new ArrayList<>();
 		if(f2==null) {
-			f2_list.add("ÀÏ¹İ¾ß¿µÀå");
-			f2_list.add("ÀÚµ¿Â÷¾ß¿µÀå");
-			f2_list.add("Ä«¶ó¹İ");
-			f2_list.add("±Û·¥ÇÎ");
+			f2_list.add("ì¼ë°˜ì•¼ì˜ì¥");
+			f2_list.add("ìë™ì°¨ì•¼ì˜ì¥");
+			f2_list.add("ì¹´ë¼ë°˜");
+			f2_list.add("ê¸€ë¨í•‘");
 		}else {
 			for(int i = 0; i<f2.length;i++) {		
 				f2_list.add(f2[i]);
@@ -58,9 +58,9 @@ public class filterService extends HttpServlet {
 		}
 		List<String> f3_list = new ArrayList<>();
 		if(f3==null) {
-			f3_list.add("º° º¸±â ÁÁÀº");
-			f3_list.add("Èú¸µ");
-			f3_list.add("Ä¿ÇÃ");
+			f3_list.add("ë³„ ë³´ê¸° ì¢‹ì€");
+			f3_list.add("íë§");
+			f3_list.add("ì»¤í”Œ");
 		}else {
 			for(int i = 0; i<f3.length;i++) {		
 				f3_list.add(f3[i]);
@@ -79,11 +79,11 @@ public class filterService extends HttpServlet {
 		
 		List<String> f5_list = new ArrayList<>();
 		if(f5==null) {
-			f5_list.add("Àü±â");
-			f5_list.add("¿ÍÀÌÆÄÀÌ");
-			f5_list.add("¿Â¼ö");
-			f5_list.add("°È±â±æ");
-			f5_list.add("¸¶Æ®");
+			f5_list.add("ì „ê¸°");
+			f5_list.add("ì™€ì´íŒŒì´");
+			f5_list.add("ì˜¨ìˆ˜");
+			f5_list.add("ê±·ê¸°ê¸¸");
+			f5_list.add("ë§ˆíŠ¸");
 		}else {
 			for(int i = 0; i<f5.length;i++) {		
 				f5_list.add(f5[i]);
@@ -97,6 +97,8 @@ public class filterService extends HttpServlet {
 		category.put("f4_list", f4_list);
 		category.put("f5_list", f5_list);
 		//HashMap<>
+		
+		
 		list1 = dao.SearchList(category);
 		
 		System.out.println(list1.size());

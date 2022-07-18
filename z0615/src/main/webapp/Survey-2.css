@@ -1,4 +1,21 @@
-.u-btn-1{
+#head{
+	
+	font-family: 'Walkester';
+	letter-spacing: -1px;
+	
+}
+
+@font-face {
+  font-family: 'Walkester';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Walkester.ttf);
+}
+
+
+
+
+ .u-btn-1{
 	font-family: 'GowunBatang-Bold';
 }
 

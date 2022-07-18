@@ -237,7 +237,7 @@ html, body {
 
  z-index: 2;
     position: absolute;
-    left: -55px;
+    left: -120px;
     top:-95px;
     width:400px;
     height:400px;
@@ -269,7 +269,7 @@ html, body {
     font-weight: 600;
     position: absolute;
     top: 26px;
-    right: -161px;
+    right: -110px;
     background: forestgreen;
     line-height: 36px;
     padding: 0 5px;
@@ -443,7 +443,7 @@ html, body {
 			<h2 class="u-align-center u-text u-text-default u-text-1"></h2>
 			<div
 				class="u-align-center u-border-1 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
-			<h3 class="u-align-center u-text u-text-2">Q. 생각하는 것만으로도 마음이 설레는
+			<h3 class="u-align-center u-text u-text-2">Q1. 생각하는 것만으로도 마음이 설레는
 				장소는?</h3>
 			<div class="u-list u-list-1">
 				<div class="u-repeater u-repeater-1">
