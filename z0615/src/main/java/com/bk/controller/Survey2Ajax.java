@@ -39,8 +39,9 @@ public class Survey2Ajax extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("application/json; charset=UTF-8");
 		PrintWriter out = response.getWriter();
-		Gson gson = new Gson();
+		Gson gson = new Gson();		
 		String json = gson.toJson(ex_list);
+		System.out.println(json);
 		out.print(json);
 	
 	
