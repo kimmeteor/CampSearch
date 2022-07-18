@@ -41,6 +41,7 @@ public class Survey2Ajax extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		Gson gson = new Gson();		
 		String json = gson.toJson(ex_list);
+		System.out.println(json);
 		out.print(json);
 	
 	
