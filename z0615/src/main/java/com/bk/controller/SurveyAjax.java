@@ -113,8 +113,6 @@ public class SurveyAjax extends HttpServlet {
 		List<CampVO> sortedList = list5.stream().sorted((a,b)->(int)(b.getRank()*100) - (int)(a.getRank()*100)).collect(Collectors.toList());
 		// 정렬되었나 출력		
 		Collections.shuffle(sortedList);
-		for(CampVO cvo : sortedList) {
-		}
 		for(CampVO a : list){
      		if(a.getHomepage()==null){
      			a.setHomepage("notFound.html");

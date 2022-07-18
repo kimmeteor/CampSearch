@@ -336,9 +336,7 @@
 					datetime = datetime.split("T")[0];
 					str += "<div class = 'box'>";
 					str += "<a class = 'a1' href='"+blogurl+"'>";
-					str += "<div>"
-					str += "<img class = 'img1' src='"+image+"'>";
-					str += "</div>"
+					str += "<div><img class = 'img1' src='"+image+"'></div>";
 					str += "<div class = 'right'>"
 					str += "<p class = 'title2'>"+ title +"</p>";										
 					str += "<p class = 'blogname'>" + blogname +"</p>";
@@ -349,7 +347,6 @@
 					str += "</div><hr>"					
 				});				
 				$("#container").html(str);
-				var total_count = data.meta.total_count;				
 			},
 			error:function(){
 				console.log("에러");
